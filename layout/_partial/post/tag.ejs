@@ -1,0 +1,19 @@
+<<<<<<< HEAD
+<% if (post.tags && post.tags.length){ %>
+    <div class="article-tag tagcloud">
+        <%- list_tags(post.tags, {
+            show_count: false,
+            class: 'article-tag'
+          }) %>
+    </div>
+=======
+<% if (post.tags && post.tags.length){ %>
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags"></i>
+		<%- list_tags(post.tags, {
+		    show_count: false,
+		    class: 'article-tag'
+		  }) %>
+	</div>
+>>>>>>> litten/master
+<% } %>
